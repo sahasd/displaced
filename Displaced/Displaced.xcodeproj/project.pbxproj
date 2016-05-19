@@ -36,7 +36,7 @@
 		290F5E7B1CED53A7001AEC33 /* TransitionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290F5E5E1CED53A7001AEC33 /* TransitionManager.swift */; };
 		290F5E7C1CED53A7001AEC33 /* TransitionZoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290F5E5F1CED53A7001AEC33 /* TransitionZoom.swift */; };
 		290F5E7D1CED53A7001AEC33 /* UnwindSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290F5E601CED53A7001AEC33 /* UnwindSegue.swift */; };
-		2913E9711CED944A00AD6707 /* mainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2913E9701CED944A00AD6707 /* mainScreen.swift */; };
+		2913E9731CEDA2DC00AD6707 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2913E9721CEDA2DC00AD6707 /* TableViewController.swift */; };
 		2945FFBD1CED82820081FE3C /* refugeeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2945FFBB1CED82820081FE3C /* refugeeCell.swift */; };
 		2945FFBE1CED82820081FE3C /* refugeeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2945FFBC1CED82820081FE3C /* refugeeCell.xib */; };
 		299552AD1CED4505006DE0BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 299552AC1CED4505006DE0BB /* AppDelegate.swift */; };
@@ -76,7 +76,7 @@
 		290F5E5E1CED53A7001AEC33 /* TransitionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionManager.swift; sourceTree = "<group>"; };
 		290F5E5F1CED53A7001AEC33 /* TransitionZoom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionZoom.swift; sourceTree = "<group>"; };
 		290F5E601CED53A7001AEC33 /* UnwindSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnwindSegue.swift; sourceTree = "<group>"; };
-		2913E9701CED944A00AD6707 /* mainScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = mainScreen.swift; path = ../mainScreen.swift; sourceTree = "<group>"; };
+		2913E9721CEDA2DC00AD6707 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		2945FFBB1CED82820081FE3C /* refugeeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = refugeeCell.swift; sourceTree = "<group>"; };
 		2945FFBC1CED82820081FE3C /* refugeeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = refugeeCell.xib; sourceTree = "<group>"; };
 		299552A91CED4505006DE0BB /* Displaced.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Displaced.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -157,7 +157,7 @@
 				290F5E421CED53A7001AEC33 /* Spring */,
 				299552AC1CED4505006DE0BB /* AppDelegate.swift */,
 				2945FFBB1CED82820081FE3C /* refugeeCell.swift */,
-				2913E9701CED944A00AD6707 /* mainScreen.swift */,
+				2913E9721CEDA2DC00AD6707 /* TableViewController.swift */,
 				2945FFBC1CED82820081FE3C /* refugeeCell.xib */,
 				299552B01CED4505006DE0BB /* Main.storyboard */,
 				299552B31CED4506006DE0BB /* Assets.xcassets */,
@@ -254,6 +254,7 @@
 				290F5E741CED53A7001AEC33 /* SpringAnimation.swift in Sources */,
 				290F5E731CED53A7001AEC33 /* Spring.swift in Sources */,
 				290F5E6F1CED53A7001AEC33 /* LoadingView.swift in Sources */,
+				2913E9731CEDA2DC00AD6707 /* TableViewController.swift in Sources */,
 				290F5E781CED53A7001AEC33 /* SpringTextField.swift in Sources */,
 				290F5E651CED53A7001AEC33 /* DesignableButton.swift in Sources */,
 				290F5E691CED53A7001AEC33 /* DesignableTextField.swift in Sources */,
@@ -263,7 +264,6 @@
 				290F5E621CED53A7001AEC33 /* AsyncImageView.swift in Sources */,
 				290F5E681CED53A7001AEC33 /* DesignableTabBarController.swift in Sources */,
 				290F5E631CED53A7001AEC33 /* AutoTextView.swift in Sources */,
-				2913E9711CED944A00AD6707 /* mainScreen.swift in Sources */,
 				290F5E6A1CED53A7001AEC33 /* DesignableTextView.swift in Sources */,
 				290F5E671CED53A7001AEC33 /* DesignableLabel.swift in Sources */,
 				290F5E7D1CED53A7001AEC33 /* UnwindSegue.swift in Sources */,
