@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Displaced.xcscheme</key>
+		<key>Displaced-Test.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,7 +12,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>299552A81CED4505006DE0BB</key>
+		<key>2913E97C1CEDA66500AD6707</key>
 		<dict>
 			<key>primary</key>
 			<true/>

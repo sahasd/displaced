@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "299552A81CED4505006DE0BB"
-               BuildableName = "Displaced.app"
-               BlueprintName = "Displaced"
-               ReferencedContainer = "container:Displaced.xcodeproj">
+               BlueprintIdentifier = "2913E97C1CEDA66500AD6707"
+               BuildableName = "Displaced-Test.app"
+               BlueprintName = "Displaced-Test"
+               ReferencedContainer = "container:Displaced-Test.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "299552A81CED4505006DE0BB"
-            BuildableName = "Displaced.app"
-            BlueprintName = "Displaced"
-            ReferencedContainer = "container:Displaced.xcodeproj">
+            BlueprintIdentifier = "2913E97C1CEDA66500AD6707"
+            BuildableName = "Displaced-Test.app"
+            BlueprintName = "Displaced-Test"
+            ReferencedContainer = "container:Displaced-Test.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -55,10 +55,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "299552A81CED4505006DE0BB"
-            BuildableName = "Displaced.app"
-            BlueprintName = "Displaced"
-            ReferencedContainer = "container:Displaced.xcodeproj">
+            BlueprintIdentifier = "2913E97C1CEDA66500AD6707"
+            BuildableName = "Displaced-Test.app"
+            BlueprintName = "Displaced-Test"
+            ReferencedContainer = "container:Displaced-Test.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -74,10 +74,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "299552A81CED4505006DE0BB"
-            BuildableName = "Displaced.app"
-            BlueprintName = "Displaced"
-            ReferencedContainer = "container:Displaced.xcodeproj">
+            BlueprintIdentifier = "2913E97C1CEDA66500AD6707"
+            BuildableName = "Displaced-Test.app"
+            BlueprintName = "Displaced-Test"
+            ReferencedContainer = "container:Displaced-Test.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
