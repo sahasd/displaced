@@ -15,7 +15,7 @@ var sayings = ["Hello...Is anybody there...HELLO?",
                "They said I could talk to people, and they’d talk back. They said that there were people who could help",
                "I don’t need much. I’m alone. All I want is someone to talk to. Please stay. Don’t leave.",
                "I’m in Sudan. Sorry I’m so worried. My family is all dead or missing. My name is Kamal Aga. I’m eleven years old. I’m scared.",
-               "I just crossed all of Sudan. My friend ------------",
+               "I just crossed all of Sudan. My fri......",
                "My friend. He just collapsed. What should I do?",
                "Ok, give me some time, I'll let you know how it goes"]
 
@@ -24,13 +24,13 @@ var answers1 = ["I’m here.",
                 "Help with what?",
                 "Ok, where are you?",
                 "What happened, are you okay?",
-                "Why?",
+                "Your friend...?",
                 "Get some help.",
                 "Ok."
 ]
 
 var answers2 = ["Who are you?",
-                "Who",
+                "Who?",
                 "I can help.",
                 "Don’t worry. Why are you afraid?",
                 "Whats going on?",
@@ -41,12 +41,19 @@ var answers2 = ["Who are you?",
 
 protocol myDelegate {
     func reload(myData dataobject: AnyObject)
+
 }
 
 
 class TableViewController: UITableViewController, myDelegate {
     func reload(myData dataobject: AnyObject) {
         self.tableView.reloadData()
+        if counter <= 9 {
+            let indexPath = NSIndexPath(forRow: counter-1, inSection: 0)
+            self.tableView.scrollToRowAtIndexPath(indexPath,
+                                                  atScrollPosition: UITableViewScrollPosition.Middle, animated: true)
+        }
+
     }
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -62,10 +69,10 @@ class TableViewController: UITableViewController, myDelegate {
 
 
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        if counter < 8 {
+        if counter < 9 {
             return counter
         }
-        return 8
+        return 9
         
     }
     
@@ -107,6 +114,21 @@ class TableViewController: UITableViewController, myDelegate {
             cell.delegate = self
 
 
+        }
+        if indexPath.row == 8 {
+            self.tableView.separatorStyle = UITableViewCellSeparatorStyle.None;
+            
+            cell.contentView.backgroundColor = UIColor(red:0.09, green:0.09, blue:0.08, alpha:1.00)
+            
+            cell.speech?.text = "Kamal seems to be busy, check again later"
+            cell.speech.textColor = UIColor(red:0.87, green:0.87, blue:0.87, alpha:1.00)
+            cell.speech?.textAlignment = .Center;
+            cell.answer1.backgroundColor = UIColor(red:0.09, green:0.09, blue:0.08, alpha:1.00)
+            cell.answer2.backgroundColor = UIColor(red:0.09, green:0.09, blue:0.08, alpha:1.00)
+            cell.speech?.font = cell.speech?.font.fontWithSize(11)
+
+          
+            
         }
         return cell
     }

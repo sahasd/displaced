@@ -26,6 +26,26 @@
                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                         <nil key="highlightedColor"/>
                     </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="giV-CW-AIZ" customClass="SpringButton" customModule="Displaced_Test" customModuleProvider="target">
+                        <rect key="frame" x="23" y="237" width="275" height="25"/>
+                        <state key="normal" title="Button"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="delay">
+                                <real key="value" value="0.5"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="string" keyPath="animation" value="slideUp"/>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="autostart" value="YES"/>
+                            <userDefinedRuntimeAttribute type="number" keyPath="force">
+                                <real key="value" value="2"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="duration">
+                                <real key="value" value="0.69999999999999996"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                        <connections>
+                            <action selector="tapped:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="rLU-k8-7AX"/>
+                        </connections>
+                    </button>
                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J8V-o5-hU7" customClass="SpringButton" customModule="Displaced_Test" customModuleProvider="target">
                         <rect key="frame" x="23" y="168" width="329" height="25"/>
                         <constraints>
@@ -37,36 +57,16 @@
                                 <real key="value" value="2"/>
                             </userDefinedRuntimeAttribute>
                             <userDefinedRuntimeAttribute type="number" keyPath="delay">
-                                <real key="value" value="1"/>
+                                <real key="value" value="0.5"/>
                             </userDefinedRuntimeAttribute>
                             <userDefinedRuntimeAttribute type="string" keyPath="animation" value="slideUp"/>
                             <userDefinedRuntimeAttribute type="boolean" keyPath="autostart" value="YES"/>
                             <userDefinedRuntimeAttribute type="number" keyPath="duration">
-                                <real key="value" value="1"/>
+                                <real key="value" value="0.69999999999999996"/>
                             </userDefinedRuntimeAttribute>
                         </userDefinedRuntimeAttributes>
                         <connections>
                             <action selector="tapped:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="4PA-qd-PJc"/>
-                        </connections>
-                    </button>
-                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="giV-CW-AIZ" customClass="SpringButton" customModule="Displaced_Test" customModuleProvider="target">
-                        <rect key="frame" x="23" y="237" width="275" height="25"/>
-                        <state key="normal" title="Button"/>
-                        <userDefinedRuntimeAttributes>
-                            <userDefinedRuntimeAttribute type="number" keyPath="delay">
-                                <real key="value" value="1"/>
-                            </userDefinedRuntimeAttribute>
-                            <userDefinedRuntimeAttribute type="string" keyPath="animation" value="slideUp"/>
-                            <userDefinedRuntimeAttribute type="boolean" keyPath="autostart" value="YES"/>
-                            <userDefinedRuntimeAttribute type="number" keyPath="force">
-                                <real key="value" value="2"/>
-                            </userDefinedRuntimeAttribute>
-                            <userDefinedRuntimeAttribute type="number" keyPath="duration">
-                                <real key="value" value="1"/>
-                            </userDefinedRuntimeAttribute>
-                        </userDefinedRuntimeAttributes>
-                        <connections>
-                            <action selector="tapped:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="rLU-k8-7AX"/>
                         </connections>
                     </button>
                 </subviews>
